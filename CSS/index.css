@@ -1,15 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Verdana', sans-serif;
     text-align: center;
-    background-color: #f0f8ff;
+    background: linear-gradient(to right, #ff6a00, #ff4500);
+    color: white;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ff0000;
-    padding: 15px;
-    color: white;
+    background-color: #ff3300;
+    padding: 20px;
+    font-size: 1.8em;
 }
 
 nav ul {
@@ -19,25 +20,22 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 12px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 1.1em;
 }
 
 main {
-    padding: 20px;
+    padding: 25px;
 }
 
 footer {
-    background-color: #ff0000;
-    padding: 10px;
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    margin-top: 20px;
+    background-color: #ff3300;
+    padding: 12px;
+    font-size: 1em;
 }
